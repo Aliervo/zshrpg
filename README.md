@@ -25,13 +25,17 @@ for you! (linux only for now)
 ## Usage
 
 zshrpg wraps the rpg-cli program in the `rpg` function, saving you four
-keystrokes for anything you can do with `rpg-cli`. Additionally, it overrides
-`cd` with a version that plays the game while you move around your filesystem.
-If your hero encounters an enemy en route, you will be placed in that folder to
-see the fight, or you'll be sent back home if your hero should fall.  If this
-behavior is undesirable (sometimes the work just *has* to get done), a
-`teleport` command has been provided to jump you to a folder without the chance
-of encounters along the way. Finally, a `dgn` command that let's your hero
-generate and explore new dungeons in your current directory has been provided
-to allow you to quickly and easily descend in search of treasure and monsters.
+keystrokes for anything you can do with `rpg-cli`.
 
+Additionally, it overrides `cd` with a version that plays the game while you
+move around your filesystem. If your hero encounters an enemy en route, you
+will be placed in that folder to see the fight, or you'll be sent back home
+if your hero should fall.
+
+If this behavior is undesirable (sometimes the work just *has* to get done), a
+`teleport` command has been provided to jump you to a folder without the chance
+of encounters along the way.
+
+Finally, a `dgn` command that allows your hero generate and explore new
+dungeons in the current directory has been provided to allow quick and easy
+descent in search of treasure and monsters.
